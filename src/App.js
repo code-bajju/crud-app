@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container , Navbar , Row , Col, Nav  } from "react-bootstrap";
+// import AddBook from "./components/AddBook";
+// import BookList from "./components/BooksList";
+import "./App.css";
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+    <Navbar bg="dark" variant="dark" className="header">
+      <Container>
+        <Navbar.Brand href="#home">Crud Operation</Navbar.Brand>
+      </Container>
+    </Navbar>
+    
+<Container style={{width:"400px"}}>
+  <Row>
+    <Col>
 
-export default App;
+    </Col>
+  </Row>
+
+</Container>
+    </>
+  )
+}
